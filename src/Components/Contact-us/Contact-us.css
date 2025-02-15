@@ -24,23 +24,6 @@
     padding: 50px 30px;
 }
 
-@media (max-width: 768px) {
-    .contact-container {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .contact-modes {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .contact-card {
-        padding: 20px;
-        text-align: center;
-    }
-}
-
 .card-icon {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 10px;
@@ -55,9 +38,24 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .contact-link {
+@media (max-width: 805px) {
+    .contact-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact-modes {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .contact-card {
+        padding: 20px;
         text-align: center;
+    }
+    
+    .contact-link {
+        margin: 0 auto;
     }
 }
 

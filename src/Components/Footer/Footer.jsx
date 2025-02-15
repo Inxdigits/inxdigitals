@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Footer/Footer.css"
-import logo from "../Images/inx-logo.png";
+import logo from "../../assets/Logo.png";
 import instagram from "../Images/instagram-fill.png"
 import x from "../Images/prime_twitter.png"
 import facebook from "../Images/uil_facebook.png"
@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="top">
         <div className="logo">
-          <img src={ logo } alt="" style={{width : "347px", height : "50px"}}/>
+          <img src={ logo } alt="" style={{width : "347px", height : "300px"}}/>
         </div>
         <div className="socials">
             <img src={ instagram } alt="" className="ig social-icon"/>

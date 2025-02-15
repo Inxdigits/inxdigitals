@@ -1,0 +1,94 @@
+/* Base styles for stats-section */
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background: linear-gradient(to right, rgba(14, 47, 126, 1), rgba(130, 66, 70, 1));
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 50px;
+    flex-wrap: nowrap;
+    margin-top: 250px; /* Adjust the margin top */
+    /*z-index: 1; Ensure it’s not hidden behind any other sections */
+}
+
+/* Stat-item styles */
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: linear-gradient(to right, rgba(14, 47, 126, 1), rgba(130, 66, 70, 1));
+    width: 272.5px;
+    height: 200px;
+    margin: 1rem;
+}
+
+/* Stat number styles */
+.stat-number {
+    font-family: 'poppins';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Stat item text styles */
+.stat-item p {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* On tablet screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .stats-section {
+        flex-direction: row;
+        gap: 1.5rem;
+        padding: 40px;
+        margin-top: 43.75rem;
+        justify-self: space-evenly;
+    }
+
+    .stat-item {
+        width: 45%;
+    }
+}
+
+/* On small screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .stats-section {
+        flex-direction: column; /* Stack items vertically */
+        padding: 30px;
+        gap: 2rem;
+        margin-top: 125rem; /* Increase margin to separate from other sections */
+    }
+
+    .stat-item {
+        width: 80%;
+    }
+}
+
+/* On very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .stats-section {
+        flex-direction: column; /* Stack items vertically */
+        gap: 1.5rem;
+        padding: 20px;
+        margin-top: 500px; /* Ensure enough space below previous sections */
+    }
+
+    .stat-item {
+        width: 90%;
+    }
+}
