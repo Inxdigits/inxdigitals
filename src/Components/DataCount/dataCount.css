@@ -27,7 +27,7 @@
     box-shadow: linear-gradient(to right, rgba(14, 47, 126, 1), rgba(130, 66, 70, 1));
     width: 272.5px;
     height: 200px;
-    margin: 1rem;
+    /* gap: 1rem; */
 }
 
 /* Stat number styles */

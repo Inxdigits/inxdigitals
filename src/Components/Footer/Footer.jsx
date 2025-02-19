@@ -14,10 +14,18 @@ const Footer = () => {
           <img src={ logo } alt="" style={{width : "347px", height : "300px"}}/>
         </div>
         <div className="socials">
+          <a href="https://www.instagram.com/inxdigitalsltd/">
             <img src={ instagram } alt="" className="ig social-icon"/>
+          </a>
+          <a href="https://x.com/inxdigitalsltd">
             <img src={ x } alt="" className="twitter social-icon"/>
+          </a>
+          <a href="https://www.instagram.com/inxdigitalsltd/">
             <img src={ facebook } alt="" className="fb social-icon"/>
+          </a>
+          <a href="https://www.linkedin.com/company/inxdigitals/?viewAsMember=true">
             <img src={ linkedin } alt="" className="linkedin social-icon"/>
+          </a>
         </div>
       </div>
       <div className="border-line"></div>

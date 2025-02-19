@@ -11,16 +11,11 @@ import coreValueImage4 from "../../assets/box-image4.png";
 import coreValueImage5 from "../../assets/box-image5.png";
 
 
-
 const AboutUs = () => {
   return (
-    <div className="aboutUs-container">
+    <div className="aboutUs-container" id='aboutUs'>
         <div className="aboutUs-header">
             <h2>ABOUT US</h2>
-            <div className="aboutUs-description">
-                <p>Empowering Businesses with Innovative Tech Solutions...</p>
-            </div>
-
         </div>
         <div className="aboutUs-images">
             <img className="image-1" src={image1} alt="image 1"/>
@@ -30,15 +25,18 @@ const AboutUs = () => {
 
         </div>
         <div className="aboutUs-advantage">
-            <h3>The INX Digital Innovative Advantage.</h3>
+            <h3>The INX Digitals Advantage.</h3>
             <p>In a fast-paced digital landscape, businesses need more than just technology—they need the <b/>
-                right strategies, tools, and expertise to thrive. At INX Digital Innovation, we are not just a tech agency; we are a powerhouse of digital transformation, driven to help companies achieve unparalleled success through bespoke solutions.</p>
+                right strategies, tools, and expertise to thrive. At INX Digital Innovation, we are not just a tech agency; 
+                we are a powerhouse of digital transformation, driven to help companies achieve unparalleled success through 
+                bespoke solutions.
+            </p>
 
         </div>
         <div className="coreValue">
             <h3>Our Core Values</h3>
             <div className="coreValue-boxes">
-                <div className="coreValue-box box1">
+                <div className="coreValue-box box1"> 
                 <img className="valueImage-1" src={coreValueImage1} alt="valueImage 1"/>
                     <h5>Collaboration</h5>
                     <p>We believe in the power of <br/>collaboration to spark <br/>innovation and drive <br/>meaningful change.</p>

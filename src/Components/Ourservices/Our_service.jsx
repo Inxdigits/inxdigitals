@@ -6,10 +6,10 @@ import './Our_service.css';
 
 const Our_service = () => {
   return (
-    <div className='Ourservices'>
+    <div className='Ourservices' id='ourService'>
         <div className='header_text'>
-            <h1>OUR SERVICES</h1>
-            <p>Innovate Together, Transform Tomorrow</p>
+            <h1>What We Do</h1>
+            <p>Designing Solutions that Empower</p>
         </div>
         
         <div className="service-containers">

@@ -125,8 +125,8 @@
 }
 
 .image-1 {
-    width: 327.5px;
-    height: 350px;
+    max-width: 327.5px;
+    max-height: 350px;
     border-radius: 10px;
     margin: 0;
     padding: 0;
@@ -134,25 +134,32 @@
 }
 
 .image-2 {
-    width: 328px;
-    height: 250px;
+    max-width: 328px;
+    max-height: 250px;
     border-radius: 10px;
     background: #1F1F1F;
 }
 
 .image-3 {
-    width: 327.5px;
-    height: 300px;
+    max-width: 327.5px;
+    max-height: 300px;
     border-radius: 10px;
     background: #1F1F1F;
 }
 
 .image-4 {
-    width: 327.5px;
-    height: 350px;
+    max-width: 327.5px;
+    max-height: 350px;
     border-radius: 10px;
     background: #1F1F1F;
 }
+
+.aboutUs-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 
 /* Small Phones (max-width: 375px) */
 @media (max-width: 375px) {
@@ -386,8 +393,8 @@
 }
 
 .coreValue-box {
-    width: 240px;
-    height: 260px;
+    max-width: 240px;
+    max-height: 260px;
     padding: 20px;
     border-radius: 10px;
     background: #0E2F7E;
@@ -470,7 +477,7 @@
         display: flex;
         flex-direction: column; /* Stack boxes */
         align-items: center;
-        width: 325px;
+        max-width: 325px;
         height: auto;
         gap: 30px;
     }

@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
-import Hero_gradient from './Components/Hero_gradient/Hero_gradient'
+// import Hero_gradient from './Components/Hero_gradient/Hero_gradient'
 import Our_service from './Components/Ourservices/Our_service'
 import DataCount from './Components/DataCount/DataCount'
 import AboutUs from './Components/AboutUs/AboutUs'
@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
       <div style={{ marginTop: "80px" }}> {/* Content below navbar */}</div>
       <Hero/>
-      <Hero_gradient/>
+      {/* <Hero_gradient/> */}
       <Our_service/>
       <DataCount/>
       <AboutUs/>

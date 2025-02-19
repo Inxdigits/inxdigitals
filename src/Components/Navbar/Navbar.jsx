@@ -12,19 +12,22 @@ const Navbar = () => {
 
   return (
     <nav className='container'>
+      <img src={Logo} alt="Logo" className='Logo'/>
 
-        <img src={Logo} alt="" className='Logo'/>
-        <div className="menu-icon" onClick={toggleMenu}>
+      <div className="menu-icon" onClick={toggleMenu}>
           ☰
-        </div>
-        <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
-            <li><a href="#home">Home</a></li>
-            <li><a href="ourService">Our Services</a></li>
-            <li><a href="aboutUs">About Us</a></li>
-            <li><a href="contact"><button className='btn'>Contact Us</button></a></li>
-        </ul>
+      </div>
 
+      <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#ourService">Our Services</a></li>
+          <li><a href="#aboutUs">About Us</a></li>
+          <li className="nav-button">
+              <a href="#contact"><button className='btn'>Contact Us</button></a>
+          </li>
+      </ul>
     </nav>
+
   );
 };
 
