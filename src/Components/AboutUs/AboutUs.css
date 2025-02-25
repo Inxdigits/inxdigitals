@@ -1,6 +1,6 @@
 .aboutUs-container {
     max-width: 100%;
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     height: auto;
     gap: 50px;
@@ -116,11 +116,11 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 0.7vw;
+    /* gap: 0.7vw; */
     height: auto;
     padding: 0.5%;
     flex-wrap: nowrap;
-    overflow: auto;
+    overflow: none;
     white-space: nowrap;
 }
 
@@ -173,7 +173,7 @@
 
     .aboutUs-images {
         display: flex;
-        justify-content: space-between; /* Evenly distribute images */
+        /*justify-content: space-between;  Evenly distribute images */
         flex-wrap: wrap; /* Ensures images don't overflow */
         padding: 0 5px;
         gap: 5px;

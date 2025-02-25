@@ -72,7 +72,7 @@
 @media screen and (max-width: 768px) {
     .image_container {
         max-height: 490px;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         margin-top: 50px;
         width: calc(100%);
         padding: 10px;
@@ -109,7 +109,7 @@
 @media screen and (max-width: 480px) {
     .image_container {
         /* grid-template-columns: repeat(2, 1fr); */
-        height: 600px;
+        height: 490px;
         width: calc(100%);
     }
     

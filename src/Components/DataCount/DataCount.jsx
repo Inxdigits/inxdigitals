@@ -35,7 +35,7 @@ const DataCount = () => {
           }
         });
       },
-      { threshold: 0.1 } // This is now correctly formatted
+      { threshold: 0.1 }
     );
 
     const statsSection = document.querySelector(".stats-section");

@@ -38,6 +38,11 @@
     cursor: pointer;
 }
 
+.link-format {
+    color: white;
+    text-decoration: none;
+}
+
 @media (max-width: 805px) {
     .contact-container {
         width: 100%;

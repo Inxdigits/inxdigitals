@@ -19,7 +19,7 @@ const ContactUs = () => {
                 <h4>Call Us</h4>
                 <p>Mon-Fri from 8am to 6pm</p>
                 <div className="number">
-                    <a href="tel:+2349022778028">
+                    <a className="link-format" href="tel:+2349022778028">
                         <p className='contact-link'>+234 (9022)778 028</p> 
                     </a>
                 </div>
@@ -29,7 +29,7 @@ const ContactUs = () => {
                 <h4>Chat Us</h4>
                 <p>Send us a Whatsapp message</p>
                 <div className="message">
-                    <a href="https://wa.me/message/JS6AFFUXKOPLK1">
+                    <a className="link-format" href="https://wa.me/message/JS6AFFUXKOPLK1">
                         <p className='contact-link'>Send a message</p>
                     </a>
                 </div>
@@ -39,7 +39,7 @@ const ContactUs = () => {
                 <h4>Email Us</h4>
                 <p>We are here to help</p>
                 <div className="number">
-                    <a href="mailto:info@inxdigitals.com">
+                    <a className="link-format" href="mailto:info@inxdigitals.com">
                         <p className='contact-link'>info@inxdigitals.com</p>
                     </a>
                 </div>
