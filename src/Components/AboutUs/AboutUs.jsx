@@ -37,7 +37,7 @@ const AboutUs = () => {
             <h3>Our Core Values</h3>
             <div className="coreValue-boxes">
                 <div className="coreValue-box box1"> 
-                <img className="valueImage-1" src={coreValueImage1} alt="valueImage 1"/>
+                    <img className="valueImage-1" src={coreValueImage1} alt="valueImage 1"/>
                     <h5>Collaboration</h5>
                     <p>We believe in the power of <br/>collaboration to spark <br/>innovation and drive <br/>meaningful change.</p>
                 </div>
@@ -47,17 +47,17 @@ const AboutUs = () => {
                     <p>We strive for excellence in <br/>all that we do, delivering<br/> high-quality solutions that<br/> exceed expectations.</p>
                 </div>
                 <div className="coreValue-box box3">
-                <img className="valueImage-3" src={coreValueImage3} alt="valueImage 3"/>
+                    <img className="valueImage-3" src={coreValueImage3} alt="valueImage 3"/>
                     <h5>Integrity</h5>
                     <p>We operate with integrity,<br/> honesty, and transparency,<br/> fostering trust and respect<br/> in all our relationships.</p>
                 </div>
                 <div className="coreValue-box box4">
-                <img className="valueImage-4" src={coreValueImage4} alt="valueImage 4"/>
+                    <img className="valueImage-4" src={coreValueImage4} alt="valueImage 4"/>
                     <h5>Creativity</h5>
                     <p>We embrace creativity and<br/> out-of-the-box thinking,<br/> pushing boundaries to<br/> unlock new possibilities.</p>
                 </div>
                 <div className="coreValue-box box5">
-                <img className="valueImage-5" src={coreValueImage5} alt="valueImage 5"/>
+                    <img className="valueImage-5" src={coreValueImage5} alt="valueImage 5"/>
                     <h5>Impact</h5>
                     <p>We are driven by our<br/> commitment to making a<br/> positive impact on society,<br/> leveraging technology for<br/> the greater good.</p>
                 </div>

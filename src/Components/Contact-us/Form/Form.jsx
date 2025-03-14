@@ -89,7 +89,7 @@ const Form = () => {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        style={{width: "97.5%"}}
+                        style={{width: "100%"}}
                     />
                     </label>
                 </div>
@@ -104,7 +104,7 @@ const Form = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         required
-                        style={{width: "97.5%"}}
+                        style={{width: "100%"}}
                     />
                     </label>
                 </div>

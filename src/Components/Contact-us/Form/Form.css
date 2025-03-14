@@ -14,9 +14,10 @@
 
 /* Two-Column Layout for Name Fields */
 .name-input {
+    /* border: solid #333 3px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* gap: 20px; */
 }
 

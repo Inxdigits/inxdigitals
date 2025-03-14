@@ -69,8 +69,8 @@ const Slider = () => {
 
   const responsive = {
     superLargeDesktop: { breakpoint: { max: 4000, min: 1024 }, items: 2.5 },
-    desktop: { breakpoint: { max: 1024, min: 768 }, items: 1.5 },
-    tablet: { breakpoint: { max: 768, min: 464 }, items: 1 },
+    desktop: { breakpoint: { max: 1024, min: 768 }, items: 2 },
+    tablet: { breakpoint: { max: 768, min: 464 }, items: 1.5 },
     mobile: { breakpoint: { max: 464, min: 0 }, items: 1 },
   };
 
@@ -78,7 +78,7 @@ const Slider = () => {
     <div className="slider-container">
       <Carousel responsive={responsive} autoPlay autoPlaySpeed={5000} infinite 
         arrows={false}
-        swipeable={false}
+        swipeable={true}
         draggable={false}
         >
         {testimonials.map((testimonial, index) => (

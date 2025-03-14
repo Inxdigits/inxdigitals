@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* margin: 0; */
 }
 
 html {
@@ -19,13 +20,13 @@ body {
 
 @media (max-width: 768px) {
   body {
-    padding: 0;
+    padding: 0 20px;
   }
 }
 
 @media (max-width: 480px) {
   body {
-    padding: 0;
+    padding: 0 20px;
   }
 }
 

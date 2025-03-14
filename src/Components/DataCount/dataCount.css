@@ -11,7 +11,7 @@
     border-radius: 20px;
     padding: 50px;
     flex-wrap: nowrap;
-    margin-top: 250px; /* Adjust the margin top */
+    /* margin-top: 250px;  */
     /*z-index: 1; Ensure it’s not hidden behind any other sections */
 }
 
@@ -56,7 +56,7 @@
         flex-direction: row;
         gap: 1.5rem;
         padding: 40px;
-        margin-top: 43.75rem;
+        /* margin-top: 43.75rem; */
         justify-self: space-evenly;
     }
 
@@ -65,17 +65,28 @@
     }
 }
 
+@media (max-width: 960px) {
+    .stat-item p {
+        font-size: 12px;
+    }
+
+}
+
 /* On small screens (max-width: 768px) */
-@media (max-width: 768px) {
+@media (max-width: 830px) {
     .stats-section {
         flex-direction: column; /* Stack items vertically */
         padding: 30px;
         gap: 2rem;
-        margin-top: 125rem; /* Increase margin to separate from other sections */
+        /* margin-top: 5rem; */
     }
 
     .stat-item {
         width: 80%;
+    }
+    
+    .stat-item p {
+        font-size: 16px;
     }
 }
 
@@ -85,7 +96,7 @@
         flex-direction: column; /* Stack items vertically */
         gap: 1.5rem;
         padding: 20px;
-        margin-top: 500px; /* Ensure enough space below previous sections */
+        /* margin-top: 500px;  */
     }
 
     .stat-item {
