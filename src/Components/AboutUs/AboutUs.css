@@ -264,7 +264,6 @@
         max-width: 325px;
         height: auto;
         gap: 30px;
-        margin: 0;
     }
 
     .coreValue-box {
@@ -287,6 +286,11 @@
     }
 }
 
+@media (max-width: 360px) {
+    .coreValue-boxes {
+        margin: 0;
+    }
+}
 /* Button Styles */
 .button-AboutUs-container {
     display: flex;
