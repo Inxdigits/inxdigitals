@@ -12,7 +12,9 @@ const Navbar = () => {
 
   return (
     <nav className='container'>
-      <img src={Logo} alt="Logo" className='Logo'/>
+      <a href="#">
+        <img src={Logo} alt="Logo" className='Logo'/>
+      </a>
 
       <div className="menu-icon" onClick={toggleMenu}>
           ☰

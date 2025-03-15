@@ -11,7 +11,10 @@ const Footer = () => {
     <div className="footer-container">
       <div className="top">
         <div className="logo">
-          <img src={ logo } alt="" style={{width : "347px", height : "300px"}}/>
+          <img src={ logo } alt="" 
+          className="logo-img"
+          // style={{ height : "300px"}}
+          />
         </div>
         <div className="socials">
           <a href="https://www.instagram.com/inxdigitalsltd/">
