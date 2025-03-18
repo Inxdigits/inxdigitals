@@ -6,7 +6,7 @@ nav{
     height: 60px;
     background:#fff;
     color: black;
-    padding: 4px 20px;
+    padding: 4px 0;
     position: fixed;
     top:0;
     left: 0;
@@ -18,7 +18,7 @@ nav{
 }
 .Logo{ 
     width: 200px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     cursor: pointer;
 }
 

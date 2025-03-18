@@ -1,7 +1,8 @@
 {
   "name": "inx-digitals",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://Inxdigits.github.io/inxdigitals",
   "dependencies": {
     "@icon-park/react": "^1.4.2",
     "ajv": "^8.17.1",
