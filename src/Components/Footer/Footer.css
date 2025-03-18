@@ -12,12 +12,15 @@
     margin-bottom: -50px;
 }
 
+.logo-img {
+    height: 300px;
+}
 
 .socials {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    /* gap: 50px; */
+    gap: 50px;
 }
 
 .social-icon {
