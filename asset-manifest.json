@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/inxdigitals/static/css/main.925ba352.css",
+    "main.js": "/inxdigitals/static/js/main.328241f3.js",
+    "static/media/image_5.png": "/inxdigitals/static/media/image_5.2dd6e2b2b8be00741197.png",
+    "static/media/AboutUs-image3.png": "/inxdigitals/static/media/AboutUs-image3.d37f50f9a0fb13dd4c0a.png",
+    "static/media/image_4.png": "/inxdigitals/static/media/image_4.034df0a9fbf97eb27cb3.png",
+    "static/media/image_2.png": "/inxdigitals/static/media/image_2.91541fcf6366c535808c.png",
+    "static/media/AboutUs-image2.png": "/inxdigitals/static/media/AboutUs-image2.8c0c2646cd0e2bcc1924.png",
+    "static/media/image_3.png": "/inxdigitals/static/media/image_3.78285270289e029b0f1f.png",
+    "static/media/image_6.png": "/inxdigitals/static/media/image_6.c38f2fbf8431da97195c.png",
+    "static/media/image_7.png": "/inxdigitals/static/media/image_7.d155dd60fb3dc8889ec6.png",
+    "static/media/AboutUs-image1.png": "/inxdigitals/static/media/AboutUs-image1.1a1e3b310f4ec1fd0ece.png",
+    "static/media/AboutUs-image4.png": "/inxdigitals/static/media/AboutUs-image4.b80f84ce601829557834.png",
+    "static/media/testimonial-img.png": "/inxdigitals/static/media/testimonial-img.292109df5b49b02dcd2d.png",
+    "static/media/Logo.png": "/inxdigitals/static/media/Logo.898b484eee2306488d48.png",
+    "static/media/profile_icon_demo.jpg": "/inxdigitals/static/media/profile_icon_demo.7e0396bf8f6457ea4a1c.jpg",
+    "static/media/WhyUs-image1.png": "/inxdigitals/static/media/WhyUs-image1.239146f37faf97c66a41.png",
+    "static/media/WhyUs-image3.png": "/inxdigitals/static/media/WhyUs-image3.36a1032d83dc989e444c.png",
+    "static/media/WhyUs-image2.png": "/inxdigitals/static/media/WhyUs-image2.622d31756f17ac039a18.png",
+    "static/media/WhyUs-image4.png": "/inxdigitals/static/media/WhyUs-image4.e25e12905a7e96bea6f0.png",
+    "static/media/box-image1.png": "/inxdigitals/static/media/box-image1.65821c3d475a0b64da3f.png",
+    "static/media/box-image3.png": "/inxdigitals/static/media/box-image3.3a9b3bf06e3bc8d42ded.png",
+    "static/media/box-image2.png": "/inxdigitals/static/media/box-image2.0c79bde0652ef958696e.png",
+    "static/media/box-image4.png": "/inxdigitals/static/media/box-image4.237c3dfe2e323f25be08.png",
+    "static/media/box-image5.png": "/inxdigitals/static/media/box-image5.0dd0e794df3420240c6d.png",
+    "static/media/revicons.eot": "/inxdigitals/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/inxdigitals/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/Hero.png": "/inxdigitals/static/media/Hero.28bc1260c03f40e23afb.png",
+    "static/media/revicons.woff": "/inxdigitals/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/inxdigitals/index.html",
+    "main.925ba352.css.map": "/inxdigitals/static/css/main.925ba352.css.map",
+    "main.328241f3.js.map": "/inxdigitals/static/js/main.328241f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.925ba352.css",
+    "static/js/main.328241f3.js"
+  ]
+}
