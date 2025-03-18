@@ -1,0 +1,215 @@
+.ourServices {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.headerText {
+    margin-bottom: 50px;
+}
+
+.headerText h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.headerText p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+/* STYLING FOR THE ITEMS */
+
+.service-containers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    background: rgba(245, 245, 245, 0.5);
+    color: #000;
+    padding: 40px 20px;
+    border-radius: 50px;
+    overflow: hidden;
+    max-height: 442px;
+    /* max-width: 433.33px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-item h4 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.service-item p {
+    margin: 5px 0;
+}
+
+.bold-text  {
+    /* color: #f6550d; */
+    opacity: 0.9;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.normal-text {
+    margin: 5px 0;
+    opacity: 0.5;
+    color: #000;
+    font-size: 14px;
+}
+
+.service-item svg {
+    /* margin-bottom: 10px; */
+    display: block;
+    margin: 0 auto;
+    background: #F6550D0D;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.service-item .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 10px; */
+}
+
+.service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 10px; Adds spacing between the icon and the text */
+}
+
+@media screen and (max-width: 1024px) {
+    
+    /* STYLING FOR THE ITEMS */
+        
+    .service-containers {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .service-item {
+        max-width: 325px;
+        /* max-height: 275px; */
+        gap: 10px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .service-item h4 {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .service-item p {
+        margin: 0;
+    }
+
+    .bold-text  {
+        margin: 0;
+        color: #f6550d;
+        opacity: 0.9;
+        font-size: 12px;
+    }
+
+    .normal-text {
+        margin: 0;
+        opacity: 0.5;
+        color: #000;
+        font-size: 12px;
+    }
+
+    .service-item svg {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .service-item .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .service-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0; /* Adds spacing between the icon and the text */
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .ourServices {
+        margin: 20px auto;
+    }
+    
+    .headerText {
+        margin-bottom: 20px;
+    }
+    
+    .headerText h1 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .headerText p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .service-containers {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .service-containers {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .service-item {
+        max-width: 325px;
+        /* max-height: 275px; */
+        gap: 10px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+
+/* STYLING FOR BUTTON */
+.btn-ourService {
+    max-width: 250px;
+    max-height: 60px;
+    padding: 12px 36px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #f6550d;
+    font-weight: 500;
+    font-size: 16px;
+}

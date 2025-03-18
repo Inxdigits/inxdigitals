@@ -1,0 +1,67 @@
+.slider-container {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.testimonial-card {
+    position: relative;
+    /* height: 270px; */
+    /* width: 470px; */
+    padding: 20px;
+    margin-right: 20px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, rgba(14, 47, 126, 0.2) 0%, rgba(246, 85, 13, 0.2) 100%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 123, 255, 0.1) inset;
+    text-align: left;
+}
+
+.quote-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.testimonial-text {
+    margin: 50px 0;
+    margin-bottom: 25px;
+    font-size: 12px;
+    color: #555;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .testimonial-card {
+        margin: 10px 0;
+    }
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-position {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
