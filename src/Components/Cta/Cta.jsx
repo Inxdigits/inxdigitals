@@ -8,7 +8,7 @@ const Cta = () => {
       <img src={inxlogo} alt="" className='background-image' style={{margin: "0 auto"}}/>
       <div className="overlay">
         <h2 className='text'>GET STARTED AND GROW YOUR BUSINESSS TODAY WITH INX DIGITALS</h2>
-        <button className='button'>Get Started</button>
+        <button className='button get_started'>Get Started</button>
       </div>
     </div>
   )

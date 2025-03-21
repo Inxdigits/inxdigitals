@@ -139,7 +139,7 @@ const Our_service = () => {
                 </p>
             </div>
         </div>
-        <button className="btn-ourService">Get Started</button>
+        <button className="btn-ourService get_started">Get Started</button>
         
     </div>
   )

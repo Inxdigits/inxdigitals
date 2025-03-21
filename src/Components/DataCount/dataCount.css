@@ -11,7 +11,8 @@
     border-radius: 20px;
     padding: 50px;
     flex-wrap: nowrap;
-    /* margin-top: 250px;  */
+    margin-top: 250px;
+    margin-bottom: 100px; 
     /*z-index: 1; Ensure it’s not hidden behind any other sections */
 }
 

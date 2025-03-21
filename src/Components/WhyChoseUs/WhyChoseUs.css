@@ -4,8 +4,8 @@
     max-width: 100%;
     /* max-width: 1340px; */
     height: auto;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    /* margin-bottom: 20px; */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -92,11 +92,12 @@
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    line-height: 0.7; /* Reduce the vertical spacing */
+    /* line-height: 0.7;  */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2px;
+    margin: 0;
 }
 
 /* Right Main Section */
@@ -303,19 +304,21 @@
         position: relative;
         padding: 50px 0;
         width: 325px;
-        height: 1050px;
+        /* height: 1050px; */
         margin-top: -50px;
     }
 
-    .header-container {
-        width: 325px;
-        height: 30px;
-        gap: 5px;
+    .header-text {
+        display: block;
+        /* margin: 20px auto; */
     }
 
-    .header-text {
-        width: 169px;
-        height: 30px;
+    .header-text h4 {
+        display: block;
+        outline: none !important;
+        border: none !important;
+        /* width: 169px; */
+        /* height: 30px; */
         font-family: Poppins;
         font-weight: 700;
         font-size: 20px;
@@ -409,7 +412,8 @@
     }
 
     .right-main {
-        order: 2; /* Position second */
+        margin-top: 50px;
+        order: 3; /* Position second */
     }
     
 

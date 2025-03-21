@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 import Logo from '../../assets/Logo.png';
 
@@ -9,7 +9,6 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
-
   return (
     <nav className='container'>
       <a href="#">
@@ -17,7 +16,7 @@ const Navbar = () => {
       </a>
 
       <div className="menu-icon" onClick={toggleMenu}>
-          ☰
+        ☰
       </div>
 
       <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
@@ -25,11 +24,12 @@ const Navbar = () => {
           <li><a href="#ourService">Our Services</a></li>
           <li><a href="#aboutUs">About Us</a></li>
           <li className="nav-button">
-              <a href="#contact"><button className='btn'>Contact Us</button></a>
+            <a href="#contact">
+              <button className='btn'>Contact Us</button>
+            </a>
           </li>
       </ul>
     </nav>
-
   );
 };
 

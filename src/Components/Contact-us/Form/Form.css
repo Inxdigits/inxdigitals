@@ -1,6 +1,7 @@
  /* General Container Styling */
 .form-container {
-    max-width: 750px;
+    width: 100%;
+    /* max-width: 750px; */
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -28,7 +29,7 @@
 
 input {
     padding: 15px 0 15px 15px;
-    border: 1px solid rgba(185, 170, 170, 0.5);
+    border: 1px solid #FFFFFF1A;
     background-color: transparent;
     border-radius: 10px;
     margin: 10px 0 20px 0;
@@ -205,7 +206,7 @@ textarea::placeholder {
 }
   
 /* Media Query for Larger Screens (e.g., Desktops) */
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .form-container {
         padding: 40px;
     }

@@ -3,7 +3,7 @@
     text-align: center;
     /* width: 1,340px;
     height: 1,584px; */
-    margin: 0;
+    margin: 100px 0;
     padding: 50px;
     gap: 50px;
     border-radius: 50px;
@@ -18,7 +18,8 @@
 }
 
 .contact-card {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF1A;
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
     text-align: left;
     border-radius: 50px;
     padding: 50px 30px;
@@ -56,12 +57,12 @@
 
     .contact-card {
         padding: 20px;
-        text-align: center;
+        text-align: left;
     }
     
-    .contact-link {
+    /* .contact-link {
         margin: 0 auto;
-    }
+    } */
 
 }
 

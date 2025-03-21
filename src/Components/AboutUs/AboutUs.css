@@ -55,23 +55,36 @@
 }
 
 .aboutUs-images {
-    /* border: #00000026 solid 4px; */
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 24%);
-    gap: 10px;
-}
-
-.image-1, .image-2, .image-3, .image-4 {
-    /* max-width: 327.5px; */
-    border-radius: 10px;
-    background: #1F1F1F;
+    width: 100%;
+    max-width: 1340px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: nowrap;
+    gap: 15px;
 }
 
 .aboutUs-images img {
-    width: 100%;
-    height: auto;
+    width: 23%;
+    max-width: 327.55px;
+    border-radius: 8px;
     object-fit: cover;
+}
+
+.image-1, .image-4 {
+    height: 100%;
+    /* width: 327.55px; */
+}
+
+.image-2 {
+    height: 250px;
+    /* width: 327.55px; */
+}
+
+.image-3 {
+    height: 300px;
+    /* width: 327.55px; */
 }
 
 .aboutUs-advantage {
@@ -174,8 +187,8 @@
 }
 
 .coreValue-box {
-    max-width: 240px;
-    max-height: 260px;
+    width: 260px;
+    height: 260px;
     padding: 20px;
     border-radius: 10px;
     background: #0E2F7E;
@@ -238,7 +251,7 @@
         align-items: center;
         max-width: 325px;
         height: auto;
-        gap: 30px;
+        gap: 10px;
         margin: 0 auto; /* Center the stacked boxes */
     }
 
@@ -247,11 +260,31 @@
         height: 200px;
     }
     /* Individual Box Rotations */
-    .box1 { transform: rotate(10deg); }
-    .box2 { transform: rotate(-10deg); }
-    .box3 { transform: rotate(10deg); }
-    .box4 { transform: rotate(-10deg); }
-    .box5 { transform: rotate(10deg); }
+    .box1 { 
+        transform: rotate(-10deg);
+        z-index: 1;
+        box-shadow: 0px 0px 20px 0px #FFFFFF26 inset; 
+    }
+    .box2 { 
+        transform: rotate(10deg);
+        z-index: 2;
+        box-shadow: 0px 0px 20px 0px #FFFFFF26 inset; 
+    }
+    .box3 { 
+        transform: rotate(-10deg);
+        z-index: 3;
+        box-shadow: 0px 0px 20px 0px #FFFFFF26 inset; 
+    }
+    .box4 { 
+        transform: rotate(10deg);
+        z-index: 4;
+        box-shadow: 0px 0px 20px 0px #FFFFFF26 inset; 
+    }
+    .box5 { 
+        transform: rotate(-10deg);
+        z-index: 5;
+        box-shadow: 0px 0px 20px 0px #FFFFFF26 inset; 
+    }
 }
 
 
@@ -302,8 +335,9 @@
 
 .button-AboutUs {
     width: 250px;
-    height: 50px;
-    padding: 12px 36px;
+    height: 60px;
+    padding: 20PX 70PX;
+    margin-top: 20px;
     background-color: #F6550D;
     color: #fff;
     border: none;
