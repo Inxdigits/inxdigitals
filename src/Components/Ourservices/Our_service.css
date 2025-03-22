@@ -125,7 +125,7 @@
 
     .bold-text  {
         margin: 0;
-        color: #f6550d;
+        /* color: #f6550d; */
         opacity: 0.9;
         font-size: 12px;
     }

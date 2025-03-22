@@ -42,6 +42,10 @@
 }
 
 @media (max-width: 768px) {
+  .cta-container {
+    height: 320px;
+  }
+
   .text {
     font-size: 20px;
     line-height: 40px;

@@ -44,20 +44,29 @@ const DataCount = () => {
 
   return (
     <section className="stats-section">
-      <div className="stat-item">
+      {/* <div className="stat-item">
         <h2 className="stat-number" data-target="100">0<span>+</span></h2>
         <p>Years of Expert Experience</p>
-      </div>
+      </div> */}
       <div className="stat-item">
-        <h2 className="stat-number" data-target="50">0</h2>
+        <div className="flex-div">
+          <h2 className="stat-number" data-target="50">0</h2>
+          <span className="span-plus">+</span>
+        </div>
         <p>SMEs & Startups Project Completed</p>
       </div>
       <div className="stat-item">
-        <h2 className="stat-number" data-target="30">0</h2>
+        <div className="flex-div">
+          <h2 className="stat-number" data-target="30">0</h2>
+          <span className="span-plus">+</span>
+        </div>
         <p>Free Product Prototypes in the last year</p>
       </div>
       <div className="stat-item">
-        <h2 className="stat-number" data-target="5">0</h2>
+        <div className="flex-div">
+          <h2 className="stat-number" data-target="5">0</h2>
+          <span className="span-plus">+</span>
+        </div>
         <p>Years in the Market</p>
       </div>
     </section>

@@ -1,4 +1,5 @@
 .Hero{
+    margin: 150px auto;
     max-width: 100%;
     min-height:100vh;
     background: linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url('../../assets/Hero.png');
@@ -80,3 +81,14 @@
     } */
 }
 
+@media (min-width: 1440px) {
+    .Hero {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-height: 1000px)  {
+    .Hero {
+        margin: 0 auto;
+    }
+}

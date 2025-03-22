@@ -44,7 +44,8 @@ const Form = () => {
     };
 
     return (
-        <form action="submit" 
+        <form action="" 
+            method='post'
             onSubmit={ handleSubmit }
             className='form-container' 
             style={{maxWidth: '750px', margin: '0 auto'}}>

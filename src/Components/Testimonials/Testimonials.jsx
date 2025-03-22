@@ -5,7 +5,7 @@ import Slider from './Slider/Slider'
 const Testimonials = () => {
   return (
     <div className='testimonial-container'>
-      <h3 style={{fontWeight: "700", fontSize: "32px", textAlign: 'center'}}>
+      <h3 className="testimonial-header"style={{fontWeight: "700", textAlign: 'center'}}>
         HEAR WHAT OUR <span style={{color: "rgba(246, 85, 13, 1)"}}>SATISFIED</span> CLIENTS HAVE TO SAY
       </h3>
       <div className="number-of-reviews">

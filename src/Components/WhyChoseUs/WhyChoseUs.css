@@ -308,6 +308,15 @@
         margin-top: -50px;
     }
 
+    .content-container {
+        display: flex;
+        flex-direction: column; /* Stacks children vertically */
+        align-items: center; /* Centers them horizontally */
+        gap: 20px; /* Adds space between them */
+        width: 100%; /* Ensures it takes full width */
+        position: relative;  
+    }
+
     .header-text {
         display: block;
         /* margin: 20px auto; */
@@ -330,12 +339,12 @@
     .WhyChoseUs-body {
         width: 100%;
         max-width: 325px;
-        height: auto;
+        /* height: auto; */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        /* gap: 10px; */
         margin-top: 30px;
     }
 
@@ -384,15 +393,6 @@
         display: none;
     }
 
-    .content-container {
-        display: flex;
-        flex-direction: column; /* Stacks children vertically */
-        align-items: center; /* Centers them horizontally */
-        gap: 20px; /* Adds space between them */
-        width: 100%; /* Ensures it takes full width */
-        position: relative;  
-    }
-
     .left-main, .right-main {
         display: flex;
         flex-direction: column; /* Stacks items vertically */
@@ -411,9 +411,16 @@
         margin-bottom: 20px;
     }
 
+    .WhyUs-image-1, .WhyUs-image-2, .WhyUs-image-3, .WhyUs-image-4 {
+        margin: 0 auto;
+    }
+
     .right-main {
-        margin-top: 50px;
-        order: 3; /* Position second */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-top: 50px; */
+        order: 2; /* Position second */
     }
     
 
@@ -431,6 +438,7 @@
         margin: 0 auto;
         position: relative;
     }
+
     .top-left,.bottom-left {
         margin-bottom: 0; /* Remove margin-bottom on small screens */
         margin-left: 0; /* Adjust margin-left if needed */

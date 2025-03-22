@@ -17,16 +17,16 @@ const Footer = () => {
           />
         </div>
         <div className="socials">
-          <a href="https://www.instagram.com/inxdigitalsltd/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/inxdigitalsltd/">
             <img src={ instagram } alt="" className="ig social-icon"/>
           </a>
-          <a href="https://x.com/inxdigitalsltd">
+          <a target="_blank" rel="noopener noreferrer" href="https://x.com/inxdigitalsltd">
             <img src={ x } alt="" className="twitter social-icon"/>
           </a>
-          <a href="https://www.instagram.com/inxdigitalsltd/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/inxdigitalsltd/">
             <img src={ facebook } alt="" className="fb social-icon"/>
           </a>
-          <a href="https://www.linkedin.com/company/inxdigitals/?viewAsMember=true">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/inxdigitals/?viewAsMember=true">
             <img src={ linkedin } alt="" className="linkedin social-icon"/>
           </a>
         </div>

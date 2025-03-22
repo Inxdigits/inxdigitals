@@ -1,9 +1,10 @@
  /* General Container Styling */
 .form-container {
+    /* border: 2px whitesmoke solid; */
     width: 100%;
-    /* max-width: 750px; */
+    max-width: 750px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -15,11 +16,9 @@
 
 /* Two-Column Layout for Name Fields */
 .name-input {
-    /* border: solid #333 3px; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* justify-content: space-between; */
-    /* gap: 20px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .input-container {
@@ -28,12 +27,12 @@
 }
 
 input {
-    padding: 15px 0 15px 15px;
-    border: 1px solid #FFFFFF1A;
+    width: 350px;
+    padding: 15px;
     background-color: transparent;
     border-radius: 10px;
     margin: 10px 0 20px 0;
-    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 16px;
 }
 
@@ -45,7 +44,7 @@ input {
 .radio-container {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    /* gap: 30px; */
 }
 
 .radio-column {
@@ -112,8 +111,9 @@ textarea {
     overflow: hidden;
     max-width: 100%; /* Hides scrollbars */
     width: 100%; /* Ensures the textarea takes up the available width */
-    max-height: 100px; /* Set a fixed height or adjust as needed */
-    padding: 8px;
+    height: 120px; /* Set a fixed height or adjust as needed */
+    padding: 20px 15px;
+    margin-top: 8px;
     border: 1px solid rgba(185, 170, 170, 0.5);
     border-radius: 4px;
     font-size: 14px;
@@ -133,17 +133,21 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-    color: rgba(185, 170, 170, 0.6); /* Custom color */
-    font-style: italic; /* Optional: Add styling */
-    opacity: 1; /* Ensure the placeholder is fully visible */
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 0.4; /* Ensure the placeholder is fully visible */
 }
   
 /* Make Inputs Full-Width by Default */
 .input-container input,
 .input-container textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
+    /* width: 100%; */
+    padding: 20px 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     font-size: 1rem;
     outline: none;
@@ -184,12 +188,7 @@ textarea::placeholder {
     }
 }
 
-@media (max-width: 1024px) {
-    .name-input {
-        grid-template-columns: 1fr; /* Single column */
-        gap: 15px;
-    }
-
+@media (max-width: 768px) {
     .radio-container {
       flex-direction: column; /* Stack radio groups */
       gap: 10px;
@@ -204,14 +203,24 @@ textarea::placeholder {
         margin-bottom: 20px;
     }
 }
-  
-/* Media Query for Larger Screens (e.g., Desktops) */
-@media (min-width: 1025px) {
-    .form-container {
-        padding: 40px;
+
+@media (max-width: 1024px) {
+    .name-input {
+        flex-direction: column;
     }
     
-    .name-input {
+    input {
+        width: 100%;
+    }
+}
+  
+/* Media Query for Larger Screens (e.g., Desktops) */
+/* @media (min-width: 1025px) { */
+    /* .form-container {
+        padding: 40px;
+    } */
+    
+    /* .name-input {
         gap: 30px;
     }
     
@@ -229,4 +238,4 @@ textarea::placeholder {
         padding: 15px 25px;
     }
 }
-  
+   */
