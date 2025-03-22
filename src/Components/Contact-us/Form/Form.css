@@ -146,6 +146,7 @@ textarea::placeholder {
 .input-container textarea {
     /* width: 100%; */
     padding: 20px 15px;
+    color: #fff;
     background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
