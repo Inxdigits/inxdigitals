@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inxdigitals/static/css/main.d370a3f8.css",
-    "main.js": "/inxdigitals/static/js/main.9e7386c2.js",
+    "main.css": "/inxdigitals/static/css/main.0a78d751.css",
+    "main.js": "/inxdigitals/static/js/main.d3029336.js",
     "static/media/image_5.png": "/inxdigitals/static/media/image_5.2dd6e2b2b8be00741197.png",
     "static/media/AboutUs-image3.png": "/inxdigitals/static/media/AboutUs-image3.d37f50f9a0fb13dd4c0a.png",
     "static/media/image_4.png": "/inxdigitals/static/media/image_4.034df0a9fbf97eb27cb3.png",
@@ -29,11 +29,11 @@
     "static/media/Hero.png": "/inxdigitals/static/media/Hero.28bc1260c03f40e23afb.png",
     "static/media/revicons.woff": "/inxdigitals/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/inxdigitals/index.html",
-    "main.d370a3f8.css.map": "/inxdigitals/static/css/main.d370a3f8.css.map",
-    "main.9e7386c2.js.map": "/inxdigitals/static/js/main.9e7386c2.js.map"
+    "main.0a78d751.css.map": "/inxdigitals/static/css/main.0a78d751.css.map",
+    "main.d3029336.js.map": "/inxdigitals/static/js/main.d3029336.js.map"
   },
   "entrypoints": [
-    "static/css/main.d370a3f8.css",
-    "static/js/main.9e7386c2.js"
+    "static/css/main.0a78d751.css",
+    "static/js/main.d3029336.js"
   ]
 }
