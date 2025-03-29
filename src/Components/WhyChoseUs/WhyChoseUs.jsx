@@ -15,8 +15,7 @@ const WhyChoseUs = () => {
 
             <div className="middle-main">
                 <h1 className="middle-text">
-                    INX
-                    <span className="innovation-text"> Digitals</span>
+                    <span className="innovation-text">INX Digitals</span>
                 </h1>
             </div>
             

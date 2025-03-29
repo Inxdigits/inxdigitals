@@ -9,11 +9,11 @@
     /* width: 470px; */
     padding: 20px;
     margin-right: 20px;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid;
+    background: rgba(255, 255, 255, 1);border: 1px solid;
     border-image-source: linear-gradient(180deg, rgba(14, 47, 126, 0.2) 0%, rgba(246, 85, 13, 0.2) 100%);
+    /* border-image-source: linear-gradient(180deg, rgba(14, 47, 126, 0.2) 0%, rgba(246, 85, 13, 0.2) 100%); */
+    box-shadow: 0px 0px 50px 0px #007BFF1A inset;
     border-radius: 10px;
-    box-shadow: 0px 0px 50px 0px rgba(0, 123, 255, 0.1) inset;
     text-align: left;
 }
 
@@ -21,15 +21,16 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 
 .testimonial-text {
     margin: 50px 0;
     margin-bottom: 25px;
-    font-size: 12px;
-    color: #555;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1f1f1f;
     line-height: 1.6;
 }
 

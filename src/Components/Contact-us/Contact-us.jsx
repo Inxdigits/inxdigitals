@@ -10,8 +10,8 @@ const ContactUs = () => {
   return (
     <div className="contact-container" id='contact'>
         <div className='contact-intro'>
-            <h3>CONTACT US</h3>
-            <p>Ready to help your business scale faster? Let's talk about how we can help.</p>    
+            <h3 style={{fontWeight: "700", fontSize: "32px"}}>CONTACT US</h3>
+            <p style={{fontWeight: "400", fontSize: "16px"}}>Ready to help your business scale faster? Let's talk about how we can help.</p>    
         </div>
         <div className="contact-modes">
             <div className="call contact-card">

@@ -111,58 +111,58 @@ const Form = () => {
                 </div>
 
                 <div className="radio-field">
-                <p>What service are you interested in?</p>
-                <div className="radio-container">
-                    <div className="radio-column">
-                        {services.slice(0, 3).map((service, index) => (
-                            <label className="custom-radio" key={index}>
-                                <input
-                                type="radio"
-                                name="service"
-                                value={service}
-                                checked={formData.selectedService === service}
-                                onChange={() => handleRadioChange(service)}
-                                />
-                                <span className="checkmark"></span>
-                                {service}
-                            </label>
-                        ))}
+                    <p>What service are you interested in?</p>
+                    <div className="radio-container">
+                        <div className="radio-column">
+                            {services.slice(0, 3).map((service, index) => (
+                                <label className="custom-radio" key={index}>
+                                    <input
+                                    type="radio"
+                                    name="service"
+                                    value={service}
+                                    checked={formData.selectedService === service}
+                                    onChange={() => handleRadioChange(service)}
+                                    />
+                                    <span className="checkmark"></span>
+                                    {service}
+                                </label>
+                            ))}
+                        </div>
+                        <div className="radio-column">
+                            {services.slice(3).map((service, index) => (
+                                <label className="custom-radio" key={index + 3}>
+                                    <input
+                                    type="radio"
+                                    name="service"
+                                    value={service}
+                                    checked={formData.selectedService === service}
+                                    onChange={() => handleRadioChange(service)}
+                                    />
+                                    <span className="checkmark"></span>
+                                    {service}
+                                </label>
+                            ))}
+                        </div>
                     </div>
-                    <div className="radio-column">
-                        {services.slice(3).map((service, index) => (
-                            <label className="custom-radio" key={index + 3}>
-                                <input
-                                type="radio"
-                                name="service"
-                                value={service}
-                                checked={formData.selectedService === service}
-                                onChange={() => handleRadioChange(service)}
-                                />
-                                <span className="checkmark"></span>
-                                {service}
-                            </label>
-                        ))}
+                    <div className="message-input">
+                        <label>
+                            Message
+                            <textarea
+                                className="message input"
+                                name="message"
+                                placeholder="Is there anything particular you need help with?"
+                                value={formData.message}
+                                onChange={handleChange}
+                                required
+                            />
+                        </label>
                     </div>
-                </div>
-                <div className="message-input">
-                    <label>
-                        Message
-                        <textarea
-                            className="message input"
-                            name="message"
-                            placeholder="Is there anything particular you need help with?"
-                            value={formData.message}
-                            onChange={handleChange}
-                            required
-                        />
-                    </label>
-                </div>
 
-                <div className="send-button">
-                    <button type="submit" className="submit-button">
-                        Send Message
-                    </button>
-                </div>
+                    <div className="send-button">
+                        <button type="submit" className="submit-button">
+                            Send Message
+                        </button>
+                    </div>
                 </div>
 
 

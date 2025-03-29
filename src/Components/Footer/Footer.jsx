@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Footer/Footer.css"
-import logo from "../../assets/Logo.png";
+import logo from "../../assets/INX_DIGITAL_LOGO_DESIGN0.png";
 import instagram from "../Images/instagram-fill.png"
 import x from "../Images/prime_twitter.png"
 import facebook from "../Images/uil_facebook.png"
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-line"></div>
-      <p className="copyright">© 2024 . All Rights Reserved by INX DIGITAL INNOVATION</p>
+      <p className="copyright">© 2025 . All Rights Reserved by INX DIGITAL INNOVATION</p>
     </div>
   )
 }

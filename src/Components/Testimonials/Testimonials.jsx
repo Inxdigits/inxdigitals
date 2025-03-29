@@ -10,7 +10,7 @@ const Testimonials = () => {
       </h3>
       <div className="number-of-reviews">
         <p style={{fontWeight: "700", fontSize: "40px"}}>100+</p>
-        <p style={{fontWeight: "400", fontSize: "16px"}}>REVIEWS</p>
+        <p className='review-text' style={{fontWeight: "400", fontSize: "16px"}}>REVIEWS</p>
       </div>
       <Slider />
     </div>

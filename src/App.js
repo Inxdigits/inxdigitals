@@ -14,18 +14,18 @@ import Testimonials from './Components/Testimonials/Testimonials';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       <div style={{ marginTop: "80px" }}> {/* Content below navbar */}</div>
-      <Hero/>
+      {/* <Hero/> */}
       {/* <Hero_gradient/> */}
-      <Our_service/>
-      <DataCount/>
-      <AboutUs/>
+      {/* <Our_service/> */}
+      {/* <DataCount/> */}
+      {/* <AboutUs/> */}
       <WhyChoseUs/>
-      <Cta />
-      <Testimonials />
-      <ContactUs />
-      <Footer />
+      {/* <Cta /> */}
+      {/* <Testimonials /> */}
+      {/* <ContactUs /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
