@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -32,6 +32,7 @@
 }
 
 .WhyChoseUs-body {
+    border: 1px solid #0E2F7E;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -425,7 +426,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* margin-top: 50px; */
+        height: auto;
+        /* margin-top: 10px;
+        padding-top: 10px; */
         order: 2; /* Position second */
     }
     
@@ -475,7 +478,7 @@
     .top-right::after {
         content: "";
         width: 130%; /* Adjust based on spacing */
-        height: 0.7px;
+        /* height: 0.7px; */
         background: linear-gradient(to right, transparent, black 50%, transparent); /* Fades at edges */
         position: absolute;
         bottom: -7px; /* Positioning between sections */
@@ -503,7 +506,7 @@
     }
 
     .bottom-right-container {
-        margin-top: 0; /* Remove margin-top on small screens */
+        margin-top: 10px; /* Remove margin-top on small screens */
     }
 
 

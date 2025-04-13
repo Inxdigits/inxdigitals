@@ -89,7 +89,7 @@ nav ul li:hover a{
 }
 
 /* Responsive Design for Smaller Screens */
-@media (max-width: 1024px) {
+@media (max-width: 999px) {
     nav {
         padding: 35px 20px;
     }
