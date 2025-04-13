@@ -22,7 +22,7 @@ body {
   font-family: Poppins;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   body {
     padding: 0 20px;
   }

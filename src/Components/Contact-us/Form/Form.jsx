@@ -58,10 +58,11 @@ const Form = () => {
                             className='firstname input'
                             type="text"
                             name="firstName"
-                            placeholder='John Doe'
+                            placeholder='Jonathan'
                             value={formData.firstName}
                             onChange={handleChange}
                             required
+                            autoFocus
                         />
                     </div>
                     <div className="input-container lastname-input">
@@ -72,7 +73,7 @@ const Form = () => {
                             className='lastname input'
                             type="text"
                             name="lastName"
-                            placeholder='John Doe'
+                            placeholder='David'
                             value={formData.lastName}
                             onChange={handleChange}
                             required
@@ -86,7 +87,7 @@ const Form = () => {
                         className='email input'
                         type="text"
                         name="email"
-                        placeholder="jane@facebook.com"
+                        placeholder="jdavid@email.com"
                         value={formData.email}
                         onChange={handleChange}
                         required

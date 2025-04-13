@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
-// import Hero_gradient from './Components/Hero_gradient/Hero_gradient'
 import Our_service from './Components/Ourservices/Our_service'
 import DataCount from './Components/DataCount/DataCount'
 import AboutUs from './Components/AboutUs/AboutUs'
@@ -14,18 +13,17 @@ import Testimonials from './Components/Testimonials/Testimonials';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
+      <Navbar/>
       <div style={{ marginTop: "80px" }}> {/* Content below navbar */}</div>
-      {/* <Hero/> */}
-      {/* <Hero_gradient/> */}
-      {/* <Our_service/> */}
-      {/* <DataCount/> */}
-      {/* <AboutUs/> */}
+      <Hero/>
+      <Our_service/>
+      <DataCount/>
+      <AboutUs/>
       <WhyChoseUs/>
-      {/* <Cta /> */}
-      {/* <Testimonials /> */}
-      {/* <ContactUs /> */}
-      {/* <Footer /> */}
+      <Cta />
+      <Testimonials />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }

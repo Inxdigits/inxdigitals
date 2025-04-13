@@ -34,7 +34,7 @@
     padding: 50px 30px;
     border-radius: 50px;
     overflow: hidden;
-    max-height: 442px;
+    /* max-height: 442px; */
     width: 100%;
     max-width: 433.33px;
     display: flex;
@@ -61,12 +61,12 @@
     /* color: #f6550d; */
     opacity: 0.9;
     font-weight: 500;
-    margin: 5px 0;
+    /* margin: 5px 0; */
 }
 
 .normal-text {
     font-weight: 400;
-    margin: 5px 0;
+    /* margin: 5px 0; */
     opacity: 0.5;
     font-size: 14px;
 }

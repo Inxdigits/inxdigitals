@@ -13,29 +13,30 @@ const WhyChoseUs = () => {
                 <h4>WHY <span>CHOOSE</span> US</h4>
             </div>
 
-            <div className="middle-main">
-                <h1 className="middle-text">
-                    <span className="innovation-text">INX Digitals</span>
-                </h1>
-            </div>
             
             <div className="WhyChoseUs-body">
+                <div className="middle-main">
+                    <h1 className="middle-text">
+                        <span className="innovation-text">INX Digitals</span>
+                    </h1>
+                </div>
+
                 <div className="left-main">
-                    <div className="top-left">
-                        <img className="WhyUs-image-1" src={WhyUsImage1} alt="WhyUs-image-1"/>
-                        <div className="top-left-container">
-                            <p className="top-left-header">Innovative Expertise</p>
-                            <p className="top-left-text">
+                    <div className="top-left wcu-item">
+                        <img className="WhyUs-image-1 wcu-image" src={WhyUsImage1} alt="WhyUs-image-1"/>
+                        <div className="top-left-container wcu-item-container">
+                            <p className="wcu-header">Innovative Expertise</p>
+                            <p className="wcu-text">
                                 We combine creativity and cutting-edge<br/> technology to deliver unique, tailored solutions.
                             </p>
                         </div>
                     </div>
-                
-                    <div className="bottom-left">
-                        <img className="WhyUs-image-2" src={WhyUsImage2} alt="WhyUs-image-2"/>
-                        <div className="bottom-left-container">
-                            <p className='bottom-left-header'>Proven Results</p>
-                            <p className='bottom-left-text'>From stunning designs to scalable systems, we<br/> deliver outcomes that make an impact.</p>
+
+                    <div className="bottom-left wcu-item">
+                        <img className="WhyUs-image-2 wcu-image" src={WhyUsImage2} alt="WhyUs-image-2"/>
+                        <div className="bottom-left-container wcu-item-container">
+                            <p className='wcu-header'>Proven Results</p>
+                            <p className='wcu-text'>From stunning designs to scalable systems, we<br/> deliver outcomes that make an impact.</p>
                         </div>
                     </div>
 
@@ -44,20 +45,19 @@ const WhyChoseUs = () => {
                 <div className="custom-line-vertical"></div>
                 
                 <div className='right-main'>
-                    <div className='top-right'>
-                        <img className="WhyUs-image-3" src={WhyUsImage3} alt="WhyUs-image-3"/>
-                        <div className="top-right-container">
-                            <p className='top-right-header'>Client-Centric Approach</p>
-                            <p className='top-right-text'>Your goals drive our process, ensuring every solution is aligned with your vision.</p>
+                    <div className='top-right wcu-item'>
+                        <img className="WhyUs-image-3 wcu-image" src={WhyUsImage3} alt="WhyUs-image-3"/>
+                        <div className="top-right-container wcu-item-container">
+                            <p className='wcu-header'>Client-Centric Approach</p>
+                            <p className='wcu-text'>Your goals drive our process, ensuring every solution is aligned with your vision.</p>
                         </div>
                     </div>
-                
 
-                    <div className='bottom-right'>
-                        <img className="WhyUs-image-4" src={WhyUsImage4} alt="WhyUs-image-4"/>
-                        <div className="bottom-right-container">
-                            <p className='bottom-right-header'>End-to-End Support</p>
-                            <p className='bottom-right-text'>From ideation to execution, we’re with you every step of the way.</p>
+                    <div className='bottom-right wcu-item'>
+                        <img className="WhyUs-image-4 wcu-image" src={WhyUsImage4} alt="WhyUs-image-4"/>
+                        <div className="bottom-right-container wcu-item-container">
+                            <p className='wcu-header'>End-to-End Support</p>
+                            <p className='wcu-text'>From ideation to execution, we’re with you every step of the way.</p>
                         </div>
                     </div>
                 
