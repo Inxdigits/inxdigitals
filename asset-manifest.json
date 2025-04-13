@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inxdigitals/static/css/main.0a78d751.css",
-    "main.js": "/inxdigitals/static/js/main.d3029336.js",
+    "main.css": "/inxdigitals/static/css/main.34d3d1fa.css",
+    "main.js": "/inxdigitals/static/js/main.208da3aa.js",
     "static/media/image_5.png": "/inxdigitals/static/media/image_5.2dd6e2b2b8be00741197.png",
     "static/media/AboutUs-image3.png": "/inxdigitals/static/media/AboutUs-image3.d37f50f9a0fb13dd4c0a.png",
     "static/media/image_4.png": "/inxdigitals/static/media/image_4.034df0a9fbf97eb27cb3.png",
@@ -13,7 +13,7 @@
     "static/media/AboutUs-image1.png": "/inxdigitals/static/media/AboutUs-image1.1a1e3b310f4ec1fd0ece.png",
     "static/media/AboutUs-image4.png": "/inxdigitals/static/media/AboutUs-image4.b80f84ce601829557834.png",
     "static/media/testimonial-img.png": "/inxdigitals/static/media/testimonial-img.292109df5b49b02dcd2d.png",
-    "static/media/Logo.png": "/inxdigitals/static/media/Logo.898b484eee2306488d48.png",
+    "static/media/INX_DIGITAL_LOGO_DESIGN0.png": "/inxdigitals/static/media/INX_DIGITAL_LOGO_DESIGN0.85cb85b311a32d28aa93.png",
     "static/media/profile_icon_demo.jpg": "/inxdigitals/static/media/profile_icon_demo.7e0396bf8f6457ea4a1c.jpg",
     "static/media/WhyUs-image1.png": "/inxdigitals/static/media/WhyUs-image1.239146f37faf97c66a41.png",
     "static/media/WhyUs-image3.png": "/inxdigitals/static/media/WhyUs-image3.36a1032d83dc989e444c.png",
@@ -29,11 +29,11 @@
     "static/media/Hero.png": "/inxdigitals/static/media/Hero.28bc1260c03f40e23afb.png",
     "static/media/revicons.woff": "/inxdigitals/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/inxdigitals/index.html",
-    "main.0a78d751.css.map": "/inxdigitals/static/css/main.0a78d751.css.map",
-    "main.d3029336.js.map": "/inxdigitals/static/js/main.d3029336.js.map"
+    "main.34d3d1fa.css.map": "/inxdigitals/static/css/main.34d3d1fa.css.map",
+    "main.208da3aa.js.map": "/inxdigitals/static/js/main.208da3aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a78d751.css",
-    "static/js/main.d3029336.js"
+    "static/css/main.34d3d1fa.css",
+    "static/js/main.208da3aa.js"
   ]
 }
