@@ -14,7 +14,7 @@ const Footer = () => {
           <img src={ logo } alt="" 
           className="logo-img"
           // style={{ height : "300px"}}
-          />
+          /> <span style={{color: "red", fontSize: "8px", marginRight: "38px"}}>RC: 8193592</span>
         </div>
         <div className="socials">
           <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/inxdigitalsltd/">
@@ -32,7 +32,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-line"></div>
-      <p className="copyright">© 2025 . All Rights Reserved by INX DIGITAL INNOVATION</p>
+      <p className="copyright">© 2025 . All Rights Reserved by INX DIGITAL LTD.   
+        {/* <span className='rc-number'> RC: 8193592</span> */}
+      </p>
     </div>
   )
 }

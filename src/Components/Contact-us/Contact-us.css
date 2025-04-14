@@ -1,4 +1,5 @@
 .contact-container {
+    scroll-margin-top: 110px;
     background: linear-gradient(180deg, #0E2F7E 0%, #824246 50%, #F6550D 100%);
     text-align: center;
     width: 100%;
@@ -56,6 +57,10 @@
 .link-format {
     color: white;
     text-decoration: none;
+}
+
+.form-field {
+    scroll-margin-top: 110px;
 }
 
 @media (max-width: 975px) {

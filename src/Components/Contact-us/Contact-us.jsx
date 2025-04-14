@@ -45,7 +45,7 @@ const ContactUs = () => {
                 </div>
             </div>
         </div>
-        <div className="form-field">
+        <div className="form-field" id='form-container'>
             <h4 style={{fontWeight: "600px", fontSize: "20px", lineHeight : "30px"}}>
                 Send us a message
             </h4>

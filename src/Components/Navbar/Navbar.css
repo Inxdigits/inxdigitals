@@ -16,7 +16,8 @@ nav{
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.Logo{ 
+.Logo{
+    margin-top: 30px;
     width: 220px; /* Slightly increased for better visibility */
     cursor: pointer;
 }
@@ -25,11 +26,23 @@ nav ul {
     display: flex;
     list-style: none;
     align-items: center;
-    width: 65%; /* Expanded width for better alignment */
+    width: 70%; /* Expanded width for better alignment */
     justify-content: space-between; /* Ensures better spacing */
-    margin-left: auto;
+    /* margin-left: auto; */
     padding: 0;
     gap: 35px; /* Increased spacing between links */
+}
+
+.coming-soon {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 500;
+    background-image: url('../../assets/coming-soon-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Push the button to the right */
@@ -89,20 +102,25 @@ nav ul li:hover a{
 }
 
 /* Responsive Design for Smaller Screens */
-@media (max-width: 999px) {
+@media (max-width: 1244px) {
     nav {
         padding: 35px 20px;
     }
 
+    .Logo {
+        margin-left: -30px;
+    }
+
     .menu-icon {
         display: block;
+        margin-right: 20px;
     }
 
     nav ul {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 90px;
         left: 0;
         width: 100%;
         background-color: #fff;

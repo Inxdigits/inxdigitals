@@ -47,7 +47,7 @@ const Form = () => {
         <form action="" 
             method='post'
             onSubmit={ handleSubmit }
-            className='form-container' 
+            className='form-container'
             style={{maxWidth: '750px', margin: '0 auto'}}>
                 <div className="name-input">
                     <div className="input-container firstname-input">

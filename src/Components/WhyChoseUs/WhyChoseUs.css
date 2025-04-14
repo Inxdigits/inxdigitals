@@ -47,9 +47,9 @@
 .WhyChoseUs-body::after {
     position: absolute;
     content: "";
-    top: -20%;
+    top: -5%;
     left: 50%;
-    height: 140%;
+    height: 110%;
     width: 1px;
     background: linear-gradient(to bottom, transparent, #1F1F1F, #1F1F1F, transparent); 
 }

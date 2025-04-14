@@ -16,11 +16,19 @@
     /* margin-bottom: -50px; */
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: space-around; */
+}
+
 .logo-img {
     overflow: visible;
     height: 60px;
     width: 347.67px;
     object-fit: cover;
+    margin-bottom: -30px;
 }
 
 .socials {
@@ -70,6 +78,7 @@
     }
 
     .logo {
+        align-items: center;
         text-align: center;
         /* margin: -70px 0; */
         margin-bottom: 20px;

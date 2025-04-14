@@ -3,7 +3,12 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Slider.css";
 import quoteIcon from '../../Images/quoteIcon.png';
-import profileImage from '../../Images/profile_icon_demo.jpg';
+// import profileImage from '../../Images/profile_icon_demo.jpg';
+import Amina from '../../Images/Alima.png';
+import AlexCorp from '../../Images/Alexcorp.png';
+import Elevate from '../../Images/Elevate.png';
+import Nexa from '../../Images/Nexa.png';
+import SoftEdge from '../../Images/softedge.png';
 
 // Card Component
 const TestimonialCard = ({ quoteIcon, text, profileImage, name, position }) => {
@@ -32,36 +37,36 @@ const Slider = () => {
   const testimonials = [
     {
       quoteIcon: quoteIcon,
-      text: "INX Digitals LTD transformed our initial prototype into a fully functional and visually compelling website. Their attention to detail, smooth user experience, and efficient upgrade process exceeded our expectations. The transition was seamless, enhancing both performance and aesthetics. Highly recommended!",
-      profileImage: profileImage,
-      name: "Raphael Ogundare",
-      position: "DeVogan World LTD.",
+      text: "The free prototype we received from INX Digitals as part of their GVL package for SMEs was a game-changer. It gave NovaCrate a polished and professional brand representation that really connected with our audience. It instantly boosted our credibility and directly led to increased sales. We're incredibly grateful!",
+      profileImage: Amina,
+      name: "Amina Yusuf",
+      position: "Founder of NovaCrate.",
     },
     {
       quoteIcon: quoteIcon,
       text: "From concept to launch, INX Digitals LTD delivered a top-tier website that perfectly aligns with our brand vision. Their structured approach ensured a smooth design process, and their ongoing maintenance keeps our site optimized and secure. A true game-changer for our online presence!",
-      profileImage: profileImage,
+      profileImage: AlexCorp,
       name: "Alex Corp",
       // position: "CEO, Facebook",
     },
     {
       quoteIcon: quoteIcon,
       text: "INX Digitals LTD provided expert consulting that transformed our digital strategy. Their in-depth market insights, process optimization, and tailored recommendations have significantly improved our efficiency and client engagement. A trusted partner for business growth!",
-      profileImage: profileImage,
+      profileImage: Elevate,
       name: "Elevate Consulting",
       // position: "CEO, Facebook",
     },
     {
       quoteIcon: quoteIcon,
       text: "INX Digitals LTD’s digital marketing strategies helped us expand our reach and drive real engagement. Their data-driven approach, innovative campaigns, and conversion-focused execution delivered outstanding results. The impact on our brand has been phenomenal",
-      profileImage: profileImage,
+      profileImage: Nexa,
       name: "Nexa Reach",
       // position: "CEO, Facebook",
     },
     {
       quoteIcon: quoteIcon,
       text: "INX Digitals LTD turned our app idea into a fully functional and scalable solution. Their technical expertise, user-friendly design, and seamless development process ensured a high-quality product. We couldn’t have asked for a better team to bring our vision to life!",
-      profileImage: profileImage,
+      profileImage: SoftEdge,
       name: "SoftEdge Solutions",
       // position: "CEO, Facebook",
     },

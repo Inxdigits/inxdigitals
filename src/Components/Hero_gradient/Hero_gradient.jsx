@@ -25,11 +25,13 @@ const Hero_gradient = () => {
           <img
               key={index}
               src={img.src}
-              alt={`image ${index +1}`}
+              alt={`image${index +1}`}
               className ={`image img${index+1}`}
           />
       ))}
-      <button className="get_started">Get Started</button>
+      <a className='gs-button' href="#form-container">
+        <button className="get_started">Get Started</button>
+      </a>
     </div>
   );
 };

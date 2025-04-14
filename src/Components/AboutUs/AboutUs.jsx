@@ -17,10 +17,10 @@ const AboutUs = () => {
             <h2>ABOUT US</h2>
         </div>
         <div className="aboutUs-images">
-            <img className="image-1 grid-img" src={image1} alt="image 1"/>
-            <img className="image-2 grid-img" src={image2} alt="image 2"/>
-            <img className="image-3 grid-img" src={image3} alt="image 3"/>
-            <img className="image-4 grid-img" src={image4} alt="image 4"/>
+            <img className="image-1 grid-img" src={image1} alt=""/>
+            <img className="image-2 grid-img" src={image2} alt=""/>
+            <img className="image-3 grid-img" src={image3} alt=""/>
+            <img className="image-4 grid-img" src={image4} alt=""/>
         </div>
         <div className="aboutUs-advantage">
             <h3>The INX Digitals Advantage.</h3>
@@ -31,7 +31,9 @@ const AboutUs = () => {
                 bespoke solutions.
             </p>
             <div className="button-AboutUs-container">
-                <button className="button-AboutUs">Get Started</button>
+                <a href="#form-container">
+                    <button className="button-AboutUs">Get Started</button>
+                </a>
             </div>
         </div>
         <div className="coreValue">

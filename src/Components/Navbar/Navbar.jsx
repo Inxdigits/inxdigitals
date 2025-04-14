@@ -44,6 +44,11 @@ const Navbar = () => {
             About Us
           </a>
         </li>
+        <li className={activeTab === "trainr" ? "active-link" : ""}>
+          <a href="#" target="_blank" rel="noopener noreferrer">TrainR
+            <span className="coming-soon">Coming Soon!</span>
+          </a>
+        </li>
         <li className="nav-button">
           <a href="#contact">
             <button className='btn'>Contact Us</button>

@@ -7,7 +7,7 @@ const Our_service = () => {
     <div className='ourServices' id='ourService'>
         <div className='headerText'>
             <h1>WHAT WE DO</h1>
-            <p>Designing Solutions that Empower</p>
+            <p>Designing Solutions that Empowers</p>
         </div>
         <div className="service-containers">
             <div className="service-item">
