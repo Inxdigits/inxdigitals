@@ -6,7 +6,7 @@ const Our_service = () => {
   return (
     <div className='ourServices' id='ourService'>
         <div className='headerText'>
-            <h1>What We Do</h1>
+            <h1>WHAT WE DO</h1>
             <p>Designing Solutions that Empower</p>
         </div>
         <div className="service-containers">

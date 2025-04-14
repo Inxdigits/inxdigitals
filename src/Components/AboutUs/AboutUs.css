@@ -258,7 +258,7 @@
 
     .coreValue-box {
         width: 260px;
-        height: 200px;
+        /* height: 200px; */
     }
     /* Individual Box Rotations */
     .box1 { 
