@@ -14,7 +14,7 @@ const Footer = () => {
           <img src={ logo } alt="" 
           className="logo-img"
           // style={{ height : "300px"}}
-          /> <span style={{color: "red", fontSize: "8px", marginRight: "38px"}}>RC: 8193592</span>
+          /> <span className="rc-number">RC: 8193592</span>
         </div>
         <div className="socials">
           <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/inxdigitalsltd/">
