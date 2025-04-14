@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/inxdigitals/static/css/main.34d3d1fa.css",
-    "main.js": "/inxdigitals/static/js/main.208da3aa.js",
+    "main.css": "/inxdigitals/static/css/main.8941643c.css",
+    "main.js": "/inxdigitals/static/js/main.cf9e46c9.js",
     "static/media/image_5.png": "/inxdigitals/static/media/image_5.2dd6e2b2b8be00741197.png",
+    "static/media/softedge.png": "/inxdigitals/static/media/softedge.61651b0796659ee91417.png",
+    "static/media/Alexcorp.png": "/inxdigitals/static/media/Alexcorp.1317f04fa17e8c2253c0.png",
+    "static/media/Nexa.png": "/inxdigitals/static/media/Nexa.187938a1ca644d2a23cb.png",
+    "static/media/Alima.png": "/inxdigitals/static/media/Alima.4a7d31891fd040e0efa7.png",
+    "static/media/Elevate.png": "/inxdigitals/static/media/Elevate.6eea2d4071659d7c3602.png",
     "static/media/AboutUs-image3.png": "/inxdigitals/static/media/AboutUs-image3.d37f50f9a0fb13dd4c0a.png",
     "static/media/image_4.png": "/inxdigitals/static/media/image_4.034df0a9fbf97eb27cb3.png",
     "static/media/image_2.png": "/inxdigitals/static/media/image_2.91541fcf6366c535808c.png",
@@ -14,7 +19,6 @@
     "static/media/AboutUs-image4.png": "/inxdigitals/static/media/AboutUs-image4.b80f84ce601829557834.png",
     "static/media/testimonial-img.png": "/inxdigitals/static/media/testimonial-img.292109df5b49b02dcd2d.png",
     "static/media/INX_DIGITAL_LOGO_DESIGN0.png": "/inxdigitals/static/media/INX_DIGITAL_LOGO_DESIGN0.85cb85b311a32d28aa93.png",
-    "static/media/profile_icon_demo.jpg": "/inxdigitals/static/media/profile_icon_demo.7e0396bf8f6457ea4a1c.jpg",
     "static/media/WhyUs-image1.png": "/inxdigitals/static/media/WhyUs-image1.239146f37faf97c66a41.png",
     "static/media/WhyUs-image3.png": "/inxdigitals/static/media/WhyUs-image3.36a1032d83dc989e444c.png",
     "static/media/WhyUs-image2.png": "/inxdigitals/static/media/WhyUs-image2.622d31756f17ac039a18.png",
@@ -29,11 +33,11 @@
     "static/media/Hero.png": "/inxdigitals/static/media/Hero.28bc1260c03f40e23afb.png",
     "static/media/revicons.woff": "/inxdigitals/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/inxdigitals/index.html",
-    "main.34d3d1fa.css.map": "/inxdigitals/static/css/main.34d3d1fa.css.map",
-    "main.208da3aa.js.map": "/inxdigitals/static/js/main.208da3aa.js.map"
+    "main.8941643c.css.map": "/inxdigitals/static/css/main.8941643c.css.map",
+    "main.cf9e46c9.js.map": "/inxdigitals/static/js/main.cf9e46c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.34d3d1fa.css",
-    "static/js/main.208da3aa.js"
+    "static/css/main.8941643c.css",
+    "static/js/main.cf9e46c9.js"
   ]
 }
