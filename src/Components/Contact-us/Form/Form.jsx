@@ -62,7 +62,6 @@ const Form = () => {
                             value={formData.firstName}
                             onChange={handleChange}
                             required
-                            autoFocus
                         />
                     </div>
                     <div className="input-container lastname-input">
