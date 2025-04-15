@@ -14,7 +14,7 @@ const DataCount = () => {
       if (count < target) {
         count += increment;
         element.textContent = count;
-        setTimeout(updateCount, 10);
+        setTimeout(updateCount, 50);
       } else {
         element.textContent = target;
       }

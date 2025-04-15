@@ -45,8 +45,8 @@ const Navbar = () => {
           </a>
         </li>
         <li className={activeTab === "trainr" ? "active-link" : ""}>
-          <a href="">TrainR
-            <span className="coming-soon">Coming Soon!</span>
+          <a href="">Trainr
+            <span className="coming-soon">Soon</span>
           </a>
         </li>
         <li className="nav-button">
