@@ -139,7 +139,9 @@ const Our_service = () => {
                 </p>
             </div>
         </div>
-        <button className="btn-ourService get_started">Get Started</button>
+        <a href="#form-container">
+            <button className="get_started">Get Started</button>
+        </a>
         
     </div>
   )

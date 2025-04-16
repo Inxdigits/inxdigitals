@@ -32,7 +32,7 @@ const AboutUs = () => {
             </p>
             <div className="button-AboutUs-container">
                 <a href="#form-container">
-                    <button className="button-AboutUs">Get Started</button>
+                    <button className="get_started">Get Started</button>
                 </a>
             </div>
         </div>
