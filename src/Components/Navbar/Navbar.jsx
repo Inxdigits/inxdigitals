@@ -49,12 +49,12 @@ const Navbar = () => {
             <span className="coming-soon">Soon</span>
           </a>
         </li>
-        <li className="nav-button">
-          <a href="#contact">
-            <button className='btn'>Contact Us</button>
-          </a>
-        </li>
       </ul>
+      <div className="nav-button">
+        <a href="#contact">
+          <button className='btn'>Contact Us</button>
+        </a>
+      </div>
     </nav>
   );
 };
