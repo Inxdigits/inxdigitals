@@ -26,7 +26,7 @@ nav ul {
     display: flex;
     list-style: none;
     align-items: center;
-    /* width: 65%;  */
+    width: 65%; /* Expanded width for better alignment */
     justify-content: space-between; /* Ensures better spacing */
     /* margin-left: auto; */
     padding: 0;
@@ -46,7 +46,7 @@ nav ul {
 
 /* Push the button to the right */
 .nav-button {
-    /* margin-left: auto; */
+    margin-left: auto;
 }
 
 nav ul li {
