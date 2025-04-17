@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/inxdigitals/static/css/main.4e35e8d2.css",
+    "main.css": "/inxdigitals/static/css/main.67ccca9c.css",
     "main.js": "/inxdigitals/static/js/main.a6a204ea.js",
     "static/media/image_5.png": "/inxdigitals/static/media/image_5.2dd6e2b2b8be00741197.png",
     "static/media/softedge.png": "/inxdigitals/static/media/softedge.61651b0796659ee91417.png",
@@ -33,11 +33,11 @@
     "static/media/Hero.png": "/inxdigitals/static/media/Hero.28bc1260c03f40e23afb.png",
     "static/media/revicons.woff": "/inxdigitals/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/inxdigitals/index.html",
-    "main.4e35e8d2.css.map": "/inxdigitals/static/css/main.4e35e8d2.css.map",
+    "main.67ccca9c.css.map": "/inxdigitals/static/css/main.67ccca9c.css.map",
     "main.a6a204ea.js.map": "/inxdigitals/static/js/main.a6a204ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e35e8d2.css",
+    "static/css/main.67ccca9c.css",
     "static/js/main.a6a204ea.js"
   ]
 }
