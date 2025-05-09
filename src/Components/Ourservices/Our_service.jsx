@@ -15,7 +15,7 @@ const Our_service = () => {
                 <h4>Website Design & Development</h4>
                 <span className="bold-text">“Your Vision, Our Process, the Perfect Website”</span>
                 <p>
-                    <span className="normal-text">At INX Digital, we go beyond ordinary. Through deep research, precise prototyping, SEO optimization, and boundless creativity, we craft websites designed to make an impact.
+                    <span className="normal-text">At INX Digitals, we go beyond ordinary. Through deep research, precise prototyping, SEO optimization, and boundless creativity, we craft websites designed to make an impact.
                     Every detail counts. Let’s create a digital space where your brand shines!</span>
                 </p>
             </div>
@@ -47,7 +47,7 @@ const Our_service = () => {
                 </h4>
                 <span className="bold-text">“Building Apps That Work, For You”</span>
                 <p>
-                    <span className="normal-text">At INX Digital, we prioritize functionality and user experience to develop reliable, scalable apps and software solutions.
+                    <span className="normal-text">At INX Digitals, we prioritize functionality and user experience to develop reliable, scalable apps and software solutions.
                     Driven by your goals, we create tools that seamlessly fit your needs.
                     Ready to turn your idea into an app that delivers?</span>
                 </p>
@@ -80,7 +80,7 @@ const Our_service = () => {
                 <p>
                     <span className="normal-text">Our digital marketing solutions cut through the noise with strategies that get results.
                     From social media strategy to targeted ads and content that connects, we help your brand reach and engage the right audience.
-                    Let’s make INX Digital your brand’s megaphone!</span>
+                    Let’s make INX Digitals your brand’s megaphone!</span>
                 </p>
             </div>
             <div className="service-item">

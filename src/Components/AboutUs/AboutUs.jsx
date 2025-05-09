@@ -26,7 +26,7 @@ const AboutUs = () => {
             <h3>The INX Digitals Advantage.</h3>
             <p>
                 In a fast-paced digital landscape, businesses need more than just technology—they need the 
-                right strategies, tools, and expertise to thrive. At INX Digital Innovation, we are not just a tech agency; 
+                right strategies, tools, and expertise to thrive. At INX Digitals, we are not just a tech agency; 
                 we are a powerhouse of digital transformation, driven to help companies achieve unparalleled success through 
                 bespoke solutions.
             </p>
