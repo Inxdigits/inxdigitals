@@ -76,7 +76,7 @@ const Our_service = () => {
                     </svg>
                 </div>
                 <h4>Digital Marketing</h4>
-                <span className="bold-text">“Your Brand, Amplified by INX Digital Innovation"</span>
+                <span className="bold-text">“Your Brand, Amplified by INX Digitals."</span>
                 <p>
                     <span className="normal-text">Our digital marketing solutions cut through the noise with strategies that get results.
                     From social media strategy to targeted ads and content that connects, we help your brand reach and engage the right audience.

@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-line"></div>
-      <p className="copyright">© 2025 . All Rights Reserved by INX DIGITAL LTD.   
+      <p className="copyright">© 2025 . All Rights Reserved by INX DIGITALS LTD.   
         {/* <span className='rc-number'> RC: 8193592</span> */}
       </p>
     </div>
