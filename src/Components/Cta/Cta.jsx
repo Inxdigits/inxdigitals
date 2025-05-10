@@ -7,7 +7,7 @@ const Cta = () => {
     <div className='cta-container' >
       <img src={inxlogo} alt="" className='background-image' style={{margin: "0 auto", objectFit: "cover"}}/>
       <div className="overlay">
-        <h2 className='text'>GET STARTED AND GROW YOUR BUSINESSS TODAY WITH INX DIGITALS</h2>
+        <h2 className='text'>GET STARTED AND GROW YOUR BUSINESS TODAY WITH INX DIGITALS</h2>
         <a href="#form-container">
           <button className='button get_started'>Get Started</button>
         </a>
