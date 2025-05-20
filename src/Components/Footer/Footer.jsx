@@ -23,7 +23,7 @@ const Footer = () => {
           <a target="_blank" rel="noopener noreferrer" href="https://x.com/inxdigitalsltd">
             <img src={ x } alt="" className="twitter social-icon"/>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/inxdigitalsltd/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/inxdigitals/">
             <img src={ facebook } alt="" className="fb social-icon"/>
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/inxdigitals/?viewAsMember=true">

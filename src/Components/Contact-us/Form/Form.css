@@ -12,7 +12,42 @@
     font-size: 16px;
     line-height: 24px;
     color: rgba(255, 255, 255, 1);
-  }
+}
+.popup-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    background-color: #4BB543;
+    color: white;
+    padding: 1.2rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeInOut 5s ease-in-out forwards;
+}
+  
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.9);
+    }
+    10% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    90% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.9);
+    }
+}
+  
 
 /* Two-Column Layout for Name Fields */
 .name-input {
@@ -37,30 +72,30 @@ input {
 }
 
 /* CHECKBOX STYLING */
-.radio-field {
+.checkbox-field {
     margin-top: 20px;
 }
 
-.radio-container {
+.checkbox-container {
     display: flex;
     justify-content: space-between;
     /* gap: 30px; */
 }
 
-.radio-column {
+.checkbox-column {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-/* Hide default radio button */
-.custom-radio input[type="radio"] {
+/* Hide default checkbox button */
+.custom-checkbox input[type="checkbox"] {
     display: none;
 }
   
-/* Custom Radio Button */
-.custom-radio .checkmark {
+/* Custom checkbox Button */
+.custom-checkbox .checkmark {
     width: 30px;
     height: 30px;
     border: 2px solid rgba(185, 170, 170, 0.5);
@@ -74,14 +109,14 @@ input {
     transition: background-color 0.3s, border-color 0.3s;
 }
   
-  /* When Radio Button is Selected */
-.custom-radio input[type="radio"]:checked + .checkmark {
+  /* When checkbox Button is Selected */
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
     background-color: rgba(255, 255, 255, 1);
     border-color: rgba(246, 85, 13, 1);
 }
   
 /* Checkmark (Visible when selected) */
-.custom-radio input[type="radio"]:checked + .checkmark::after {
+.custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
     content: "✔"; /* Unicode for a checkmark */
     color: rgba(246, 85, 13, 1);
     font-size: 16px;
@@ -89,13 +124,13 @@ input {
 }
   
 /* Label Text Styling */
-.custom-radio {
+.custom-checkbox {
     display: flex;
     align-items: center;
     gap: 10px; /* Space between the checkmark and label text */
 }
   
-.custom-radio span {
+.custom-checkbox span {
     font-size: 16px;
     color: #333; /* Label text color */
 }
@@ -190,13 +225,13 @@ textarea::placeholder {
 }
 
 @media (max-width: 768px) {
-    .radio-container {
-      flex-direction: column; /* Stack radio groups */
+    .checkbox-container {
+      flex-direction: column; /* Stack checkbox groups */
       gap: 10px;
       margin-bottom: 20px;
     }
   
-    .radio-column {
+    .checkbox-column {
       gap: 10px; /* Reduce spacing between items */
     }
 
@@ -225,7 +260,7 @@ textarea::placeholder {
         gap: 30px;
     }
     
-    .radio-container {
+    .checkbox-container {
         gap: 40px;
     }
     
