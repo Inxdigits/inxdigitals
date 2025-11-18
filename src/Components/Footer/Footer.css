@@ -68,6 +68,13 @@
     text-align: center;
 }
 
+.reach-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+
 @media (max-width: 768px) {
     .footer-container {
         margin: 0 auto;

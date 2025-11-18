@@ -11,32 +11,61 @@ const Footer = () => {
     <div className="footer-container">
       <div className="top">
         <div className="logo">
-          <img src={ logo } alt="" 
-          className="logo-img"
-          // style={{ height : "300px"}}
-          /> <span className="rc-number">RC: 8193592</span>
+          <img
+            src={logo}
+            alt=""
+            className="logo-img"
+            // style={{ height : "300px"}}
+          />{" "}
+          <span className="rc-number">RC: 8193592</span>
         </div>
         <div className="socials">
-          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/inxdigitalsltd/">
-            <img src={ instagram } alt="" className="ig social-icon"/>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/inxdigitalsltd/"
+          >
+            <img src={instagram} alt="" className="ig social-icon" />
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://x.com/inxdigitalsltd">
-            <img src={ x } alt="" className="twitter social-icon"/>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://x.com/inxdigitalsltd"
+          >
+            <img src={x} alt="" className="twitter social-icon" />
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/inxdigitals/">
-            <img src={ facebook } alt="" className="fb social-icon"/>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/inxdigitals/"
+          >
+            <img src={facebook} alt="" className="fb social-icon" />
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/inxdigitals/?viewAsMember=true">
-            <img src={ linkedin } alt="" className="linkedin social-icon"/>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/company/inxdigitals/?viewAsMember=true"
+          >
+            <img src={linkedin} alt="" className="linkedin social-icon" />
           </a>
         </div>
       </div>
       <div className="border-line"></div>
-      <p className="copyright">© 2025 . All Rights Reserved by INX DIGITALS LTD.   
+      <div className="copyright">
+        <div className="reach-us">
+          <p className="address">
+            Contact address: 4, SEGILOLA STREET, AGEGE, LAGOS STATE, NIGERIA
+          </p>
+          <p className="numbers">
+            Phone & WhatsApp:{" "}
+            <a href="tel:+2348109511164">+234 810 951 1164</a>
+          </p>
+        </div>
+        <br />© 2025 . All Rights Reserved by INX DIGITALS LTD.
         {/* <span className='rc-number'> RC: 8193592</span> */}
-      </p>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Footer
