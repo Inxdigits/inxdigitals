@@ -75,6 +75,60 @@
     color: #000;
 }
 
+/* Background Blur */
+.tos-backdrop {
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(6px);
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal Box */
+.tos-modal {
+  background: white;
+  width: 90%;
+  max-width: 760px;
+  max-height: 70vh;
+  border-radius: 12px;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+  animation: popup 0.2s ease-in-out;
+}
+
+.tos-modal h2 {
+  text-align: center;
+}
+
+/* Scrollable Terms Content */
+.tos-content {
+  max-height: 55vh;
+  overflow-y: auto;
+  /* padding-right: 10px; */
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Smooth popup animation */
+@keyframes popup {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+
 @media (max-width: 768px) {
     .footer-container {
         margin: 0 auto;
@@ -118,7 +172,14 @@
         justify-content: space-between;
         flex-wrap: nowrap;
     }
-
+    
+    .tos-modal h2 {
+        font-size: 20px;
+    }
+    
+    .tos-content {
+        font-size: 14px;
+    }
 }
 
 
@@ -132,6 +193,21 @@
         width: 40px;
         height: 40px;
     } */
+    
+    .reach-us {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: #000;
+    }
+    
+    .tos-modal h2 {
+        font-size: 16px;
+    }
+    
+    .tos-content {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 360px) {
