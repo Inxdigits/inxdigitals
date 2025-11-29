@@ -8,6 +8,7 @@ import linkedin from "../Images/mdi_linkedin.png";
 
 const Footer = () => {
   const [openTerms, setOpenTerms] = useState(false);
+  const [openPrivacy, setOpenPrivacy] = useState(false);
 
   return (
     <>
@@ -51,36 +52,46 @@ const Footer = () => {
 
         <div className="border-line"></div>
 
+        <div className="reach-us">
+          <p className="address">
+            Contact address: 4, SEGILOLA STREET, AGEGE, LAGOS STATE, NIGERIA
+          </p>
+          <p className="numbers">
+            Phone & WhatsApp: <a href="tel:+2348109511164">+234 810 951 1164</a>
+          </p>
+        </div>
+
         <div className="copyright">
-          <div className="reach-us">
-            <p className="address">
-              Contact address: 4, SEGILOLA STREET, AGEGE, LAGOS STATE, NIGERIA
+          <span>© 2025 . All Rights Reserved by INX DIGITALS LTD.</span>
+
+          <div className="links">
+            <p
+              style={{
+                cursor: "pointer",
+                textDecoration: "underline",
+                textAlign: "left",
+              }}
+              onClick={() => setOpenTerms(true)}
+            >
+              Refund Policy
             </p>
-            <p className="numbers">
-              Phone & WhatsApp:{" "}
-              <a href="tel:+2348109511164">+234 810 951 1164</a>
+
+            <p
+              style={{
+                cursor: "pointer",
+                textDecoration: "underline",
+                marginLeft: "20px",
+                textAlign: "left",
+              }}
+              onClick={() => setOpenPrivacy(true)}
+            >
+              Privacy Policy
             </p>
           </div>
-
-          {/* NEW: Terms of Service link */}
-          <p
-            style={{
-              cursor: "pointer",
-              textDecoration: "underline",
-              textAlign: "left",
-            }}
-            onClick={() => setOpenTerms(true)}
-          >
-            Terms of Service & Refund Policy
-          </p>
-
-          <span>© 2025 . All Rights Reserved by INX DIGITALS LTD.</span>
-          <br />
-          <br />
         </div>
       </div>
 
-      {/* MODAL */}
+      {/* REFUND POLICY MODAL */}
       {openTerms && (
         <div className="tos-backdrop" onClick={() => setOpenTerms(false)}>
           <div
@@ -215,6 +226,47 @@ const Footer = () => {
                   Digitals Ltd, the client acknowledges and agrees to the terms
                   of this Refund & Cancellation Policy.
                 </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* PRIVACY POLICY MODAL */}
+      {openPrivacy && (
+        <div className="tos-backdrop" onClick={() => setOpenPrivacy(false)}>
+          <div className="tos-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="close-btn" onClick={() => setOpenPrivacy(false)}>
+              ✕
+            </button>
+
+            <h2>INX Digitals Ltd — Privacy Policy</h2>
+            <div className="tos-content">
+              <p>
+                INX Digitals Limited (“INX Digitals,” “we,” “our,” or “us”) is
+                committed to protecting your privacy. This Privacy Policy
+                explains how we collect, use, store, and protect your personal
+                information when you visit our website, use our services, or
+                interact with our digital platforms.
+                <br /> <br />
+                By accessing our website or using our services, you agree to the
+                terms outlined in this Privacy Policy.
+              </p>
+
+              <ol>
+                <li>Information We Collect
+                  <ul>li</ul>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
               </ol>
             </div>
           </div>

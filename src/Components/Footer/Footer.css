@@ -6,7 +6,7 @@
     gap: 10px;
     padding: 50px 0;
     height: 200px;
-    /* margin-top: 25px; */
+    margin-bottom: 50px;
     /* overflow: hidden; */
 }
 
@@ -65,7 +65,16 @@
 
 .copyright {
     color: rgba(31, 31, 31, 0.5);
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 50px; */
+}
+
+.copyright .links {
+    display: flex;
+    /* gap: 20px; */
 }
 
 .reach-us {
